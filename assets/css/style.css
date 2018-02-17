@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: url("../images/vintage-concrete.png");
+    background-color: red;
+}
+  
+  header.top {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+}
+
+div.top-left {
+    background-color: teal;
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+}
+
+nav.top-right {
+  position: relative;
+  left: 1200px;
+  bottom: 50px;
+  display: inline;
+  width: 150px;
+  height: 75px;
+  margin: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+nav.top-right-portfolio {
+  position: relative;
+  left: 1200px;
+  bottom: 50px;
+  display: inline;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+.footer-image p.footer {
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.footer-image {
+    min-height: 110px;
+    background-image: url(../images/pairs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    margin-top: 80px;
+    line-height: 110px;
+    text-align: center;
+}
+  
+  .header-img-container {
+    min-height: 650px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    /*padding: 40px; (If don't want to set min-height or some image content is there) */
+  }  
