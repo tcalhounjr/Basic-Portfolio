@@ -16,6 +16,12 @@
     background-image: url("../images/vintage-concrete.png");
     background-color: gray;
 }
+
+hr {
+    margin: auto;
+    width: 800px;
+    
+}
   
   header.top {
     position: absolute;
@@ -24,10 +30,19 @@
     background-color: #ffffff;
 }
 
+  div.section {
+    color: teal;
+    font-size: 36px;
+    width: 90%;
+    position: relative;
+    left: 10px;
+    padding-top: 50px;
+}
+
 div.top-left {
     background-color: teal;
     position: relative;
-    left: 100px;
+    left: 150px;
     width: 200px;
     height: 75px;
     text-align: center;
@@ -73,13 +88,13 @@ nav.top-right-portfolio {
 }
 
 .footer-image {
-    min-height: 110px;
+    min-height: 120px;
     background-image: url(../images/pairs.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom;
     margin-top: 80px;
-    line-height: 110px;
+    line-height: 120px;
     text-align: center;
 }
   
@@ -91,3 +106,28 @@ nav.top-right-portfolio {
     background-position: center top;
     /*padding: 40px; (If don't want to set min-height or some image content is there) */
   }  
+
+  section {
+    margin: 40px 0px 0px 150px;
+    width: 900px;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+  article {
+    margin: auto;
+    width: 560px;
+    height: 240px;
+    background-color: #777777;
+}
+
+  aside {
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    float: right;
+    position: relative;
+    bottom: 600px;
+    right: 210px;
+    color: teal;
+}
