@@ -4,9 +4,17 @@
     padding: 0;
   }
 
+  a:visited {
+    color: maroon;
+  }
+
+  a:link {
+    color: navy;
+  }
+
   body {
     background-image: url("../images/vintage-concrete.png");
-    background-color: red;
+    background-color: gray;
 }
   
   header.top {
@@ -31,7 +39,7 @@ div.top-left {
 nav.top-right {
   position: relative;
   left: 1200px;
-  bottom: 50px;
+  bottom: 45px;
   display: inline;
   width: 150px;
   height: 75px;
@@ -43,7 +51,7 @@ nav.top-right {
 nav.top-right-portfolio {
   position: relative;
   left: 1200px;
-  bottom: 50px;
+  bottom: 45px;
   display: inline;
   width: 150px;
   height: 75px;
